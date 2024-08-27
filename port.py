@@ -18,11 +18,11 @@ import streamlit as st
 col1, col2= st.columns(2)
 
 with col1:
-    st.image("메타라마.jpg", caption="여러가지 LLM 모델", use_column_width=True)
+    st.image("llama.jpg", caption="여러가지 LLM 모델", use_column_width=True)
 
 with col2:
  
-    st.image("챗지피티.jpg", use_column_width=True)
+    st.image("gpt.jpg", use_column_width=True)
 
 
 
@@ -60,7 +60,7 @@ st.subheader("|만드는 방법")
 current_subheader = "만드는 방법"
 display_header_in_sidebar(current_subheader)
 
-image_path = "랭체인시스템.jpg"
+image_path = "langchain.jpg"
 
 st.image(image_path, caption="RAG system 흐름도.", use_column_width=True)
 
